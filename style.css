@@ -47,6 +47,8 @@ a {
 #res {
     padding: 7px;
     color: rgb(241, 66, 66);
+    position: absolute;
+    transform: translateX(112px);
     
 }
 
@@ -59,7 +61,7 @@ a {
 }
 
 #forgot {
-    transform: translateY(-20px) translateX(10px);
+    transform: translateY(-0px) translateX(10px);
     font-style: italic;
     pointer-events: auto;
     z-index: 20;
@@ -70,7 +72,7 @@ a {
     width: 140px;
     max-width: 180px;
     height: 40px;
-    transform: translateY(-40px) translateX(155px);
+    transform: translateY(-20px) translateX(155px);
     border-radius: 10px;
     color: white;
     background-color: rgba(143, 142, 142, 0.836);
@@ -78,5 +80,5 @@ a {
 
 #rene {
     text-align: end;
-    transform: translateY(-40px) translateX(-10px)
+    transform: translateY(-17px) translateX(-10px)
 }
