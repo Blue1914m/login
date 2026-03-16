@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+    </style>
+</head>
+<body>
+    <main id="Login">
+        <h2>Bem vindo de volta!</h2>
+        <h3>Faça seu login</h3>
+
+        <p>
+            <div id="dados">
+                <input type="email" name="email" id="ema" placeholder="Email">
+                <br>
+                
+                
+                <div class="password-group">
+                    <input type="password" name="senha" id="psw" placeholder="Senha">
+                    <input type="checkbox" onclick="psw.type = this.checked ? 'text' : 'password'">
+                </div>
+
+                <div id="res"></div>
+                
+
+                <br>
+                </p>
+            </div>
+
+            <div id="forgot">
+            <a href="senha.html">Esqueceu sua senha?</a>
+            </div>
+
+    
+            
+            <div id="rene"><input type="checkbox" name="lembrar" id="renem">Lembrar de mim?</div>
+            
+
+        <br>
+
+        <input id="botao" type="button" value="Logar" onclick="log()">
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
